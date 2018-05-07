@@ -1,0 +1,91 @@
+@import reset
+
+// ::selection
+  // color: #ffffff
+  // background-color: #000000
+
+=pixelated
+ // Chrome
+ image-rendering: pixelated
+ // Safari
+ image-rendering: -webkit-crisp-edges
+ // Firefox
+ image-rendering: -moz-crisp-edges
+ // Internet Explorer
+ -ms-interpolation-mode: nearest-neighbor
+
+ // Fonts:
+ -webkit-font-smoothing: none
+ -moz-font-smoothing: none
+ font-smoothing: none
+
+ -webkit-font-kerning: none
+ -moz-font-kerning: none
+ font-kerning: none
+
+ -webkit-text-rendering: geometricPrecision
+ -moz-text-rendering: geometricPrecision
+ text-rendering: geometricPrecision
+
+body
+
+  +pixelated
+  
+
+
+  font-family: "Comic Sans MS", Courier
+  background-color: #FFF
+  padding: 30px
+
+  .intro
+    font-size: 18px
+    color: #000000
+    line-height: 30px
+
+  .links
+    padding-top: 40px
+    font-size: 14px
+    max-width: 320px
+
+    a
+      text-decoration: none
+      background-repeat: no-repeat
+      background-size: 20px
+      background-position-y: center
+      height: 40px
+      line-height: 40px
+      display: block
+      padding-left: 30px
+
+    a:hover
+      text-decoration: underline
+
+
+    a.email
+      color: #929292
+      background-image: url("../img/email.jpg")
+    a.dribbble
+      color: #E16887
+      background-image: url("../img/dribbble.jpg")
+    a.github
+      color: #404040
+      background-image: url("../img/github.jpg")
+    a.instagram
+      color: #4F7FA2
+      background-image: url("../img/instagram.jpg")
+    a.twitter
+      color: #68BCE8
+      background-image: url("../img/twitter.jpg")
+    a.weibo
+      color: #D16866
+      background-image: url("../img/weibo.jpg")
+    a.ama
+      color: #807F80
+      background-image: url("../img/ama.jpg")
+
+  .badges
+    margin-top: 50px
+    img, p
+      display: inline-block
+      vertical-align:top
+      margin: 5px
