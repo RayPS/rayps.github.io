@@ -40,6 +40,6 @@ window.onresize = function() {
   var nw;
   nw = window.innerWidth;
   if (nw - ow > 100 || ow - nw > 100) {
-    woah.style.color = "black";
+    woah.style.opacity = 1;
   }
 };
