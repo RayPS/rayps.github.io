@@ -2,7 +2,7 @@ ua = navigator.userAgent
 
 mobile = ua.match(/Mobile|Android|iPhone|iPad|iPod/) isnt null
 
-chinese = navigator.language.toLowerCase().indexOf('zh') > -1
+# chinese = navigator.language.toLowerCase().indexOf('zh') > -1
 
 weibo = document.getElementsByClassName('weibo')[0]
 email = document.getElementsByClassName('email')[0]
@@ -10,7 +10,7 @@ email = document.getElementsByClassName('email')[0]
 ow = window.innerWidth
 woah = document.getElementsByClassName('woah')[0]
 
-weibo.style.display = 'none' unless chinese
+# weibo.style.display = 'none' unless chinese
 
 email.onclick = ->
     if document.body.createTextRange

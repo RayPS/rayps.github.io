@@ -4,8 +4,8 @@ html(lang="en")
     title Ray
     meta(charset='UTF-8')
     meta(name="viewport" content="width=device-width height=device-height initial-scale=1")
-    link(rel='shortcut icon' href='favicon.png' type='image/x-icon') 
-    link(href='css/style.css' type='text/css' rel='stylesheet')
+    link(rel='shortcut icon' href='./favicon.png' type='image/x-icon') 
+    link(rel="stylesheet", href="style.sass")
   body
     h1.intro
       | My name is Ray,
@@ -18,7 +18,7 @@ html(lang="en")
       a.github(href="https://github.com/RayPS", target="_blank") GitHub
       a.instagram(href="https://instagram.com/rayps__", target="_blank") Instagram
       a.twitter(href="https://twitter.com/rayps_", target="_blank") Twitter
-      a.weibo(href="http://weibo.com/b1ackray", target="_blank") Weibo
+      //- a.weibo(href="http://weibo.com/b1ackray", target="_blank") Weibo
       a.ama(href="https://github.com/RayPS/ama", target="_blank") AMA
 
     .badges
@@ -28,14 +28,14 @@ html(lang="en")
       img(src="https://www.reliablecounter.com/count.php?page=rayps.com2&digit=style/plain/12/&reloads=0")
       p.woah(style={color: 'white', float: "right"}) Woah! Responsive Web Design!
       br
-      img(src="/badge/valid_html3.2.gif")
-      img(src="/badge/macmade-wht.gif")
-      img(src="/badge/bvint.gif")
+      img(src="./img/badge/valid_html3.2.gif")
+      img(src="./img/badge/macmade-wht.gif")
+      img(src="./img/badge/bvint.gif")
       br
-      img(src="/badge/le-logo-wide.gif")
-      img(src="/badge/pb-apache.gif")
-      img(src="/badge/linux.gif")
-    script(type="application/javascript", src="js/script.js")
+      img(src="./img/badge/le-logo-wide.gif")
+      img(src="./img/badge/pb-apache.gif")
+      img(src="./img/badge/linux.gif")
+    script(src="./script.coffee")
     script(type="application/javascript").
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
