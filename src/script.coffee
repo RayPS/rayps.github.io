@@ -28,8 +28,7 @@ email.onclick = ->
     return
 
 
-
-
+console.log woah.style.opacity = 1
 window.onresize = ->
   nw = window.innerWidth
 
