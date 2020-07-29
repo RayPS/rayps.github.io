@@ -8,10 +8,10 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "coffeescript": "^2.4.1",
+    "coffeescript": "^2.5.1",
     "cssnano": "^4.1.10",
     "pug": "^2.0.4",
-    "sass": "^1.23.7"
+    "sass": "^1.26.10"
   },
   "repository": {
     "type": "git",
