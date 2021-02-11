@@ -27,58 +27,65 @@ body
 
   +pixelated
   
-
-
   font-family: "Comic Sans MS", Courier
-  background-color: #FFF
   padding: 30px
+  background-image: url('/img/bg.gif')
+  background-size: 285px
+  background-color: black
+  color: white
+  cursor: url('/img/cursor.cur'), auto
 
   .intro
     font-size: 18px
-    color: #000000
+    color: cyan
+    text-shadow: 2px 2px red
     line-height: 30px
 
   .links
     padding-top: 40px
     font-size: 14px
-    max-width: 320px
+    max-width: 200px
 
     a
       text-decoration: none
-      background-repeat: no-repeat
-      background-size: 20px
-      background-position-y: center
-      height: 40px
-      line-height: 40px
-      display: block
-      padding-left: 30px
+      height: 50px
+      margin-bottom: 10px
+      display: flex
+      align-items: center
+    a img
+      width: 50px
+      margin-right: 12px
 
     a:hover
       text-decoration: underline
-
+      background-color: blue
+      cursor: url('/img/cursor.cur'), pointer
 
     a.email
-      color: #929292
-      background-image: url("./img/email.jpg")
+      color: springgreen
+      cursor: text
     a.dribbble
-      color: #E16887
-      background-image: url("./img/dribbble.jpg")
+      color: deeppink
     a.github
-      color: #404040
-      background-image: url("./img/github.jpg")
+      color: wheat
     a.instagram
-      color: #4F7FA2
-      background-image: url("./img/instagram.jpg")
+      color: orangered
     a.twitter
-      color: #68BCE8
-      background-image: url("./img/twitter.jpg")
+      color: aqua
     a.weibo
       color: #D16866
-      background-image: url("./img/weibo.jpg")
     a.ama
       color: #807F80
-      background-image: url("./img/ama.jpg")
 
+  .floaties
+    .wtms
+      position: fixed
+      top: 60px
+      left: 220px
+    .gdimp
+      position: fixed
+      top: 200px
+      left: 160px
   .badges
     margin-top: 50px
     img, p
