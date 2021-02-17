@@ -1,7 +1,7 @@
-woah = document.getElementsByClassName('woah')[0]
 
+ow = window.innerWidth
 window.onresize = ->
-  ow = window.innerWidth
+  woah = document.getElementsByClassName('woah')[0]
   nw = window.innerWidth
   if nw-ow > 100 or ow-nw > 100
     woah.style.opacity = 1
