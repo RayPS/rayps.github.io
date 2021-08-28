@@ -7,7 +7,7 @@ window.onresize = ->
     woah.style.opacity = 1
   return
 
-if (location.host isnt 'ray.omg.lol')
+if (location.host is 'ray.omg.lol')
   document.getElementsByClassName('omglol')[0].style.display = 'inline-block'
 
 email_address = if (location.host is 'ray.omg.lol')
