@@ -8,7 +8,7 @@
   },
   "devDependencies": {
     "coffeescript": "^2.5.1",
-    "cssnano": "^4.1.10",
+    "cssnano": "^6.0.0",
     "pug": "^3.0.2",
     "sass": "^1.26.10"
   },
